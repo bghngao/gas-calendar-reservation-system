@@ -1,1 +1,2 @@
-# gas-calendar-reservation-system
+# Google Apps Script - Google Calendar Room Reservation System
+

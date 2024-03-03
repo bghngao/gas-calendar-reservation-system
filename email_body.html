@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 12px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family:    Meiryo;
+}
+.button1 {background-color: #0072C6;} /* Blue */
+
+.outside {
+  font-family:    Meiryo;
+  font-weight:    bold;
+  border-style: solid;
+  border-radius: 25px;
+  width: 400px;
+  background-color: #ECECEC;
+  padding: 20px;
+  position: relative;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.inside {
+  font-family:    Meiryo;
+  font-weight:    bold;
+  border-style: solid;
+  border-radius: 25px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1vw;
+}
+
+.padding {
+  width: 100px;
+  height: auto;
+  padding: 20px;
+}
+
+</style>
+
+</head>
+	<body>
+		<div class="outside";>
+        <center><img src="https://drive.google.com/uc?export=download&id=1ek0vQyG1vthmjfBCWU1OOgZmhuvztOMe" class="padding">
+        	<div class="inside";>
+				    <h4 style="text-align: center;">{STATUS}</h1>
+				    <h6 style="text-align: center;">{MESSAGE}</h3>
+				    <p style="text-align: center;">{NAME}<br />{ROOM_EQUIPMENT}<br />{DESCRIPTION}<br />{DATE_START}<br />to<br />{DATE_END}</p>
+				    <p style="text-align: center;"><a href={FORM_LINK}><button class="button button1">New Reservation</button></a></p>  
+        	</div>
+		</div>
+
+	</body>
+</html>

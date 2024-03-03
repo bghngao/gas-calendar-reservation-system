@@ -8,6 +8,7 @@ To duplicate this reservation system,
    A. Short Answer - Name 
 
    B. Short Answer - Email
+   
    (Optional: Response Validation with settings of "Regular Expression", "Matches", "[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+", "Please provide a valid email address")
 
    C. Multiple Choice - List of Room or Equipment
@@ -21,5 +22,5 @@ To duplicate this reservation system,
    F. Date - End Time
    Required: Include Time
    
-2. For each Room or Equipment in (C), create a Google Calender.
+3. For each Room or Equipment in (C), create a Google Calender.
    I.e. If you have 3 rooms, create 3 calendars.

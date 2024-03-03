@@ -23,5 +23,7 @@ To duplicate this reservation system,
    Required: Include Time
    
 3. For each Room or Equipment in (C), create a Google Calender.
-4. 
+   
    I.e. If you have 3 rooms, create 3 calendars.
+
+4. 

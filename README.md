@@ -3,5 +3,5 @@ This project is meant to create a Google Calendar Reservation System for rooms, 
 
 To duplicate this reservation system, 
 
-
-https://www.youtube.com/watch?v=t-pJp9VIM48
+1. Create a new Google Form with the following fields
+   A. Short Answer - Email (Optional: Response Validation with settings of "Regular Expression", "Matches", "[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+", "Please provide a valid email address")
